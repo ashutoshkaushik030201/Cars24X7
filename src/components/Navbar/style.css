@@ -1,0 +1,170 @@
+.logo{
+    width: 25px;
+    height: 25px;
+    background-color: rgb(199, 197, 197);
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    width: 35vw;
+    border-radius: 60px;
+    padding-right: 10px;
+    border: 1px solid gray;
+}
+
+.search-bar input{
+    background-color: transparent;
+    flex: 1;
+    border: none;
+    outline: none;
+    padding: 15px 20px;
+    /* font-size: 1rem; */
+}
+
+.search-bar ::placeholder{
+    color: gray;
+}
+
+.search-bar button{
+    background-color: #3ba5e0;
+    border: 0;
+    border-radius: 50%;
+    width: 2.3rem;
+    height: 2.3rem;
+    cursor: pointer;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    height: 4rem;
+}
+
+.logo-container{
+    display: flex;
+    width: 10rem;
+    justify-content: space-evenly;
+}
+
+.btnLogo{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.nav-section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.more-button{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar .search-icon{
+    color: white;
+}
+
+.nav-section-items{
+    padding: 20px 0;
+    margin-right: 30px;
+}
+
+.more-menu{
+    position: absolute;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 1200;
+    width: 200px;
+    /* top: 4.1rem;
+    right: 20px; */
+    /* transform: translateX(-5rem); */
+    border-radius: 4px;
+    /* padding: 0 1rem; */
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    margin-top: 20px;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.more:hover .more-menu{
+    opacity: 1;
+    max-height: 1500px;
+    margin-top: 20px;
+    padding: 0.7rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: visible;
+}
+
+.more-menu-items{
+    padding: 10px;
+}
+
+.more-menu-items:hover{
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+.user-details-button{
+    display: flex;
+    align-items: center;
+}
+
+.username-container{
+    margin-right: 15px;
+}
+
+.username{
+    font-size: 0.8rem;
+}
+
+.username-bottom{
+    font-weight: 700;
+}
+
+.user-details-menu{
+    position: absolute;
+    box-sizing: border-box;
+    background-color: white;
+    z-index: 1300;
+    width: 200px;
+    right: 0;
+    /* transform: translateX(-5rem); */
+    border-radius: 4px;
+    /* padding: 0 1rem; */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    opacity: 0;
+    transition: all 200ms ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+}
+
+.profile:hover .user-details-menu{
+    opacity: 1;
+    max-height: 1500px;
+    margin-top: 20px;
+    padding: 0.7rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    overflow: visible;
+}
+
+.user-details-menu-items{
+    padding: 20px 10px;
+}
+
+.user-details-menu-items:hover{
+    background-color: rgb(212, 212, 212);
+}
