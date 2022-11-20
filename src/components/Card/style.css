@@ -1,0 +1,60 @@
+.buypage-card{
+    /* box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); */
+    border: 1px solid rgb(172, 172, 172);
+    height: 22rem;
+    border-radius: 8px;
+    transition: all 200ms ease-in-out;
+    /* width: 19rem; */
+}
+
+.buypage-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px -5px rgba(0,0,0,0.4);
+}
+
+.car-img{
+    width: 100%;
+    height: 14rem;
+    border-radius: 8px;
+    /* object-fit: cover; */
+}
+
+.car-card-details{
+    padding: 0.4rem;
+}
+
+.car-name{
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+}
+
+.card-other{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+}
+
+.card-other-icons{
+    width: 1.3rem;
+    height: 1.3rem;
+    opacity: 0.5;
+}
+
+.other-details{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.other-details-items{
+    font-size: 0.7rem;
+    color: rgb(109, 109, 109);
+}
+
+.car-price{
+    font-size: 1.2rem;
+    font-weight: 600;
+}

@@ -24,7 +24,7 @@
 }
 
 .search-bar ::placeholder{
-    color: gray;
+    color: rgb(44, 44, 44);
 }
 
 .search-bar button{

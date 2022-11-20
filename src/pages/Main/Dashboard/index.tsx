@@ -46,6 +46,7 @@ export default function Dashboard() {
       <div className="popular-brands">
         <div className="popular-brands-heading">Popular Brands</div>
 
+        <div className="grid-container-wrap">
         <div className='grid-container'>
           {popularBrandsArr.slice(0, isAllBrandsShown).map((item, i): any => {
             return (<div className="grid-items">
@@ -56,6 +57,7 @@ export default function Dashboard() {
               </div>
             </div>)
           })}
+        </div>
         </div>
 
         <div className="view-all-brands" onClick={handleShowAllBrands}>
