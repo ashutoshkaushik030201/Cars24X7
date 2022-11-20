@@ -1,0 +1,59 @@
+.filter{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    width: 300px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow-y: hidden;
+    padding: 10px;
+}
+
+.filter:hover{
+    overflow-y: scroll;
+}
+
+.filter-body{
+    width: 285px;
+}
+
+.filter-heading{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0 0 0;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+}
+
+.filter-heading-right{
+    font-size: 0.8rem;
+    color: #3ba5e0;
+}
+
+.price-range{
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+.price-range-heading{
+    margin-bottom: 2rem;
+}
+
+.price-values{
+    display: flex;
+    justify-content: space-between;
+    color: #4690b9;
+    margin-bottom: 0.5rem;
+}
+
+.price-range-bar{
+    padding-left: 1rem;
+}
+
+.brand-model{
+    margin-bottom: 3rem;
+}
+
+.brand-model-heading{
+    font-weight: 500;
+}

@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes }  from "react-router-dom";
 import Main from './pages/Main';
 import LoginPage from './pages/LoginPage';
 import Dashboard from './pages/Main/Dashboard';
+import Buypage from './pages/Main/Buypage';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Route path = "/login" element = {<LoginPage/>}/>
           <Route path = "/"  element = {<Main/>}>
             <Route path='dashboard' element={<Dashboard/>}/>
-            {/* <Route path='sentiment' element={<Sentiment/>}/> */}
+            <Route path='buypage' element={<Buypage/>}/>
           </Route>
         </Routes>
     </BrowserRouter>
